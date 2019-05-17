@@ -1,3 +1,5 @@
-testing docker hub autotesting repo.
+= testing docker hub autotesting repo.
 
-![Docker Build](https://img.shields.io/docker/build/kimcharli/test-docker-autobuild.svg)
+image:https://img.shields.io/docker/cloud/automated/kimcharli/test-docker-autobuild.svg[Docker Cloud Automated build]
+
+
