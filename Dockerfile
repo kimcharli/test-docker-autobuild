@@ -1,4 +1,3 @@
 FROM nginx
-COPY Dockerfile /
-VOLUME [ "/test3" ]
+COPY static-html-directory /usr/share/nginx/html
 RUN pwd

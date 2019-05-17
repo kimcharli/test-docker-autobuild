@@ -1,14 +1,6 @@
 # https://docs.docker.com/docker-hub/builds/automated-testing/
-sut:
-  build: .
-  dockerfile: Dockerfile.test
-  links:
-    - web
-  environment:
-    - SOURCE_BRANCH
-
 web:
   build: .
   dockerfile: Dockerfile
-
-
+  ports:
+    - "8888:80"
