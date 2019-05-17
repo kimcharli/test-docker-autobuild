@@ -1,5 +1,6 @@
 # https://docs.docker.com/docker-hub/builds/automated-testing/
 sut:
   build: .
-  command: run_tests.sh
+  command: uname -a
+
 
