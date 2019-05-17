@@ -1,1 +1,3 @@
 testing docker hub autotesting repo.
+
+![Docker Build](https://img.shields.io/docker/build/kimcharli/test-docker-autobuild.svg)
