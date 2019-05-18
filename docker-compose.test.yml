@@ -9,6 +9,6 @@ sut:
 
 web:
   build: .
-  dockerfile: Dockerfile
+#  dockerfile: Dockerfile
 
 
